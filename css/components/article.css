@@ -1,0 +1,114 @@
+article{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+article li{
+    vertical-align: middle;
+}
+article li img{
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    object-position: center center;
+    vertical-align: middle;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    article li img{
+        height: 270px;
+    }
+}
+@media screen and (max-width: 575px) {
+    article li img{
+        height: 210px;
+    }
+}
+.banner{
+    position: relative;
+}
+.banner:hover .slick-arrow{
+    display: inline-block!important;
+}
+.banner__list li{
+    position: relative;
+}
+.banner__list li p{
+    position: absolute;bottom: 30%;
+    left: 10%;
+    background-color: rgba(0,0,0,.3);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-right: 40px;
+}
+.banner__info{
+    position: absolute;
+    font-size: 14px;
+    color: #000;
+    width: 80%;
+    bottom: 0;
+    left: 10%;
+    display: flex;
+    height: 50px;
+
+}
+
+.banner__info .banner__info-title,.banner__info-new{
+    background: rgba(255,255,255,.6);
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+.banner__info .banner__info-title::before,.banner__info-new::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    border-style: solid;
+    border-width: 27px 0 27px 17px;
+    border-color: rgba(255, 255, 255, 0.6) transparent;
+    left: -17px;
+}
+.banner__info .banner__info-new::after,.banner__info-title::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    border-style: solid;
+    border-width: 27px 0 27px 17px;
+    border-color:transparent rgba(255, 255, 255, 0.6) ;
+    right: -17px;
+}
+.banner__info .banner__info-new{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 150px;
+    right: 17px;
+}
+@media screen and (max-width: 767px) {
+    .banner__info .banner__info-title{
+        display: none;
+    }
+    .banner__info .banner__info-new{
+        left: 0;
+        overflow: hidden;
+        height: 40px;
+        line-height: 40px;
+        right: 0;
+    }
+    .banner__info{
+        width: 100%;
+        left: 0;
+        height: 40px;
+
+    }
+}
+
+.banner__info .banner__info-new li{
+    -ms-text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

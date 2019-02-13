@@ -1,0 +1,68 @@
+@import "../base/normalize.css";
+@import "../base/bootstrap.min.css";
+@import "../base/all.css";
+@import "../base/basic.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+.contact__hot-line table{
+    table-layout: fixed;
+    width: 50%;
+    margin: auto;
+}
+@media screen and (max-width: 767px) {
+    .contact__hot-line table{
+        width: 100%;
+    }
+}
+.contact__hot-line td:first-child{
+    color: #6c757d;
+}
+.contact__hot-line td{
+    font-size: 16px ;
+    font-family: bold-font,sans-serif;
+    color: #02558D;
+    padding: 10px;
+    border-bottom: 1px solid #02558D;
+}
+.contact__send-mail{
+    width: 100%;
+    position: relative;
+}
+.contact__bg{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-45%);
+    background: url("../../img/intro/rio-syhputra-1357818-unsplash.jpg") no-repeat center center ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    filter: blur(3px);
+}
+.contact__box{
+    background-color: #fff;
+    box-shadow:1px 1px 4px 1px #6c757d ;
+}
+.contact__send-mail label{
+    display: block;
+    width: 100%;
+}
+.contact__send-mail input{
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #6c757d;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 1px 3px 1px #6c757d;
+}
+.contact__send-mail input:focus{
+    box-shadow: 1px 1px 3px 1px #02558D;
+    border-color: #02558D;
+}
+.contact__send-mail button{
+    padding: 7px 35px;
+}

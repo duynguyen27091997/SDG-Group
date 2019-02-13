@@ -1,0 +1,74 @@
+@font-face {
+    font-family: main-font;
+    src: url("../../font/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: bold-font;
+    src: url('../../font/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: thin-font;
+    src: url('../../font/Montserrat-Thin.ttf');
+}
+html,body{
+    font-family: main-font,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    border-radius: 5px;
+    background-color: #02558D;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+h2,h3,h4,h6{
+    color:#02558D;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    color:unset;
+}
+a:hover{
+    text-decoration: none;
+}
+select{
+    padding: 7px 20px;
+    outline: none;
+    font-size: 17px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+button  {
+    padding: 7px 25px;
+    background: linear-gradient(to right,#02558D,#0086C0);
+    color: #ffffff;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}

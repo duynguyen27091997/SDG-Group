@@ -1,0 +1,121 @@
+footer{
+    margin-top: 50px;
+}
+footer .footer__list li{
+    cursor: pointer;
+    font-size: 13px;
+    padding: 5px 0;
+}
+footer .footer__list li:hover{
+    color: #02558D;
+}
+footer .footer__list li:first-child{
+    font-family: bold-font,sans-serif;
+    padding: 10px 0;
+
+}
+footer .footer__btn-buy{
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+
+}
+footer .footer__btn-buy>.footer__btn-buy-left{
+    font-size: 14px;
+    width: 80%;
+    background: linear-gradient(to right,#02558D,#0086C0);
+    color: white;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+
+}
+footer .footer__btn-buy>.footer__btn-buy-right{
+    width: 20%;
+    background-color: #DCB003;
+    padding: 10px;
+    color: #02558D;
+    border-radius: 0 4px 4px 0;
+}
+footer .footer__connect>div{
+    display: block;
+}
+footer .footer__connect h6{
+    font-size: 14px;
+    font-family: bold-font,sans-serif;
+}
+
+footer .footer__social i{
+    width: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #02558D;
+    margin: 0 5px;
+}
+footer .footer__social i{
+    cursor: pointer;
+}
+footer .footer__social i:hover{
+    opacity: .8;
+}
+footer .footer__social i:first-child{
+    background-color: #3B5998;
+}
+footer .footer__social i:nth-child(2){
+    background-color: #C4302B;
+}
+footer .footer__social i:nth-child(3){
+    background-color: #DB3236;
+}
+footer .footer__top{
+    border-bottom: 1px solid #02558D;
+}
+footer .footer__bottom .footer__logo {
+    width: 100px;
+    height: 100px;
+}
+
+footer .footer__bottom dd{
+    padding: 5px 5px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px 1px #6c757d;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+footer .footer__bottom dd:hover{
+    border: 1px solid #02558D;
+}
+footer .footer__more-info{
+    margin-top: 15px;
+    background-color: #d3d3d3;
+}
+footer .footer__more-info img{
+    width: 120px;
+}
+.btn-back-to-top{
+    z-index: 5;
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 40px;
+    width: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    font-size: 24px;
+    color: #02558D;
+    background: #ffffff;
+    border: 1px solid;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.btn-back-to-top:hover{
+    color: #ffffff;
+    background-color: #02558D;
+}

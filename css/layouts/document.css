@@ -1,0 +1,27 @@
+.document .file{
+    margin: 0 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 0 #6c757d;
+}
+.document .file span{
+    vertical-align: middle;
+    text-decoration: underline #02558D;
+}
+.document .file__name{
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.btn-download {
+    padding: 4px 20px;
+    background: linear-gradient(to right,#02558D,#0086C0);
+    color: #ffffff;
+    box-shadow: none;
+    outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

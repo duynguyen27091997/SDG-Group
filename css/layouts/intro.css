@@ -1,0 +1,124 @@
+@import "../base/normalize.css";
+@import "../base/bootstrap.min.css";
+@import "../base/all.css";
+@import "../base/basic.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+main .main__list li{
+    padding: 5px 20px;
+    border: 1px solid;
+    color: #02558D;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+@media screen and (max-width: 767px){
+    main .main__list li{
+        width: 100%;
+    }
+}
+main .main__list li:hover{
+    color: white;
+    background: linear-gradient(to right,#02558D,#0086C0);
+}
+main .main__list li.active{
+    color: white;
+    background:linear-gradient(to right,#02558D,#0086C0);
+}
+main .main__info table{
+    width: 100%;
+    table-layout: fixed;
+}
+main .main__info table td{
+    padding: 10px 10px;
+    color: #02558D;
+    font-size: 14px;
+}
+main .main__info img{
+    max-height: 370px;
+}
+main .btn-more-info{
+    padding: 7px 25px;
+    background: linear-gradient(to right,#02558D,#0086C0);
+    border: 1px solid  #02558D;
+    color: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+main .main__info-more{
+    display: none;
+    font-size: 16px;
+}
+main .btn-more-info:hover{
+    color: #02558D;
+    background-color: #ffffff;
+}
+main .main__info h2{
+    padding: 20px;
+}
+.main__info:not(:first-child){
+    display: none;
+}
+main .list-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap row;
+}
+main .item__card{
+    position: relative;
+    height: 330px;
+    width: 200px;
+    margin: 0 5px;
+}
+main .item__card img{
+    height: 60%;
+
+    object-fit: cover;
+    object-position: center center;
+}
+main .item__info{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+main .item__info b{
+    font-size: 17px;
+}
+.main__info .sdg-img>img{
+    height: 370px;
+    object-fit: cover;
+    object-position: center center;
+}
+@media screen and (max-width: 991px){
+     .main__info .sdg-img>img{
+         height: 290px;
+     }
+}
+@media screen and (max-width: 568px){
+     .main__info .sdg-img>img{
+         height: 200px;
+     }
+}
+.main__info .sdg-info{
+    font-size: 15px;
+}
+.main__list .sdg-nav{
+    display: flex;
+
+}
+.main__list .sdg-nav li.nav-item{
+    padding: 10px 30px;
+    flex: 0 0 33%;
+}
+@media screen and (max-width: 767px) {
+    .main__list .sdg-nav{
+        flex-direction: column;
+    }
+}

@@ -7,10 +7,10 @@ $(".main__list li.nav-item").click(function () {
    $('.main__info-title').text($(this).text());
    let id = $(this).data('id');
     $(".main__info").each(function () {
-            if (id === $(this).data('id')){
-                $(this).fadeIn();
+            if (id !== $(this).data('id')){
+                $(this).fadeOut();
             }else {
-                $(this).fadeOut()
+                $(this).fadeIn();
             }
     })
 });

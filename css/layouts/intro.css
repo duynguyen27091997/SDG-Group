@@ -116,6 +116,7 @@ main .item__info b{
 .main__list .sdg-nav li.nav-item{
     padding: 10px 30px;
     flex: 0 0 33%;
+    cursor: pointer;
 }
 @media screen and (max-width: 767px) {
     .main__list .sdg-nav{

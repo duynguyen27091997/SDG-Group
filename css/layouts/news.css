@@ -1,0 +1,53 @@
+@import "../base/normalize.css";
+@import "../base/bootstrap.min.css";
+@import "../base/all.css";
+@import "../base/basic.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+@import "../layouts/intro.css";
+.main__info .news {
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    flex-flow: wrap;
+    padding: 10px 0;
+    border-bottom: 1px solid #6c757d;
+}
+
+.main__info .news img{
+    height: 225px;
+    object-fit: cover;
+    object-position: center center;
+}
+@media screen and (max-width: 767px) {
+    .main__info .news img{
+        height: 170px;
+    }
+    .main__info .news{
+
+    }
+}
+.main .news{
+    border: 1px solid #6c757d;
+    box-shadow: 1px 1px 3px 0 #6c757d;
+}
+.main .news h4{
+    color: #02558D;
+}
+.main .news p{
+    height: 60px;
+    width: 100%;
+    line-height: 20px;
+    font-size: 15px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    margin: 10px;
+}
+.main .news time{
+    font-size: 14px;
+}
+.main .news button{
+    width: 100%;
+    margin-top: 20px;
+}

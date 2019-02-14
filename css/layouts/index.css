@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 .jumbotron__info-btn:hover{
-    background-color: #ffffff;
+    background: #ffffff;
     color: var(--color-sencond);
 }.product__cart{
     overflow: hidden;
@@ -139,6 +139,7 @@
 }
 .about__cart{
     position: relative;
+    cursor: pointer;
     padding-top: 15px;
 }
 .about__cart img{
@@ -313,5 +314,5 @@ padding: 7px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.5);
 }

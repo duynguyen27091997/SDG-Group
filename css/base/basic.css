@@ -5,13 +5,9 @@
 
 @font-face {
     font-family: bold-font;
-    src: url('../../font/Montserrat-Bold.ttf');
+    src: url('../../font/Roboto-Medium.ttf');
 }
 
-@font-face {
-    font-family: thin-font;
-    src: url('../../font/Montserrat-Thin.ttf');
-}
 html,body{
     font-family: main-font,sans-serif;
     font-size: 13px;
@@ -43,7 +39,7 @@ img{
     height: auto;
 }
 a{
-    color:unset;
+    color:inherit;
 }
 a:hover{
     text-decoration: none;

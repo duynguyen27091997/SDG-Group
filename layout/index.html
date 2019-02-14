@@ -33,11 +33,13 @@
                     <ul class="nav">
                         <li class="nav-item text-center"><i class="fas fa-shopping-basket"></i><p>Đặt hàng thương mại</p></li>
                         <li class="nav-item text-center "><i class="fas fa-credit-card btn-buy-online"><span>0</span></i><p>Đặt hàng Trực Tuyến</p></li>
-                        <li class="nav-item text-center btn-login"><i class="far fa-user"></i><p><span><a href="">Đăng nhập</a></span>&nbsp;|&nbsp;<span><a
-                                href="">Đăng kí</a></span></p>
+                        <li class="nav-item text-center btn-login">
+                            <i class="far fa-user"></i>
+                            <p><span class="header__btn-login">Đăng nhập
+                            </span>&nbsp;|&nbsp;<span class="header__btn-sign">Đăng kí</span></p>
                             <ul class="btn-login__ul d-lg-none">
-                                <li>Đăng nhập</li>
-                                <li>Đăng Kí</li>
+                                <li class="header__btn-login">Đăng nhập</li>
+                                <li class="header__btn-sign">Đăng Kí</li>
                             </ul>
                         </li>
                     </ul>
@@ -85,6 +87,76 @@
     </div>
 </header>
 <div class="blank-space"></div>
+<div class="account" id="login">
+    <div class="account__login">
+        <form action="">
+            <button class="account__facebook"><img src="../img/intro/icon/facebook.png" alt=""><span>Đăng nhập với Facebook</span></button>
+            <button class="account__google"><img src="../img/intro/icon/search.png" alt=""><span>Đăng nhập với Gmail</span></button>
+            <p class="account__border my-4"><span class="px-3">Hoặc</span></p>
+            <label>
+                <input type="email" placeholder="Email ">
+            </label>
+            <label>
+                <input type="password" placeholder="Password">
+            </label>
+            <button>Email</button>
+            <div class="d-flex border-0  justify-content-between">
+                <label>
+                    <input type="checkbox">
+                    Ghi nhớ
+                </label>
+                <span class="btn-forget-pass"> <a href="">Quên mật khẩu ?</a></span>
+            </div>
+            <div class="d-flex justify-content-between account__footer pt-3">
+                <span>BẠn chưa có tài khoản</span>
+                <span class="btn-sign">Đăng kí</span>
+            </div>
+        </form>
+        <div class="btn-account-close"><p></p>
+            <p></p>
+        </div>
+    </div>
+</div>
+<div class="account " id="sign">
+    <div class="account__sign">
+        <form action="">
+            <p class="account__border my-4 text-uppercase"><span class="px-3">đăng kí tài khoản</span></p>
+            <label>
+                <input type="email" placeholder="Email ">
+            </label>
+            <label>
+                <input type="password" placeholder="Tạo mật khẩu">
+            </label>
+            <label>
+                <input type="password" placeholder="Xác nhận mật khẩu">
+            </label>
+            <button>Đăng Kí</button>
+
+            <div class="d-flex justify-content-between account__footer pt-3">
+                <span>BẠn đã có tài khoản</span>
+                <span class="btn-log">Đăng Nhập</span>
+            </div>
+        </form>
+        <div class="btn-account-close"><p></p>
+            <p></p>
+        </div>
+    </div>
+</div>
+<div class="account" id="forget-pass">
+    <div class="account__sign">
+        <form action="">
+            <p class="account__border my-4 text-uppercase"><span class="px-3">Lấy lại mật khẩu</span></p>
+            <label>
+                <input type="email" placeholder="Vui lòng nhập Email">
+            </label>
+            <button>Gửi</button>
+
+        </form>
+        <div class="btn-account-close"><p></p>
+            <p></p>
+        </div>
+    </div>
+</div>
 <article>
     <div class="banner">
         <ul class="banner__list">
@@ -191,7 +263,7 @@
         <div class="media-info__list">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-3 col-12 py-3">
+                    <div class="col-6 col-lg-3 py-3">
                         <div class="card">
                             <div class="media-info__cart">
                                 <img src="../img/anton-ljungberg-1123711-unsplash.jpg" alt="">
@@ -203,7 +275,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 col-12 py-3">
+                    <div class="col-6 col-lg-3 py-3">
                         <div class="card">
                             <div class="media-info__cart">
                                 <img src="../img/anton-ljungberg-1123711-unsplash.jpg" alt="">
@@ -215,7 +287,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 col-12 py-3">
+                    <div class="col-6 col-lg-3 py-3">
                         <div class="card">
                             <div class="media-info__cart">
                                 <img src="../img/anton-ljungberg-1123711-unsplash.jpg" alt="">
@@ -227,7 +299,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 col-12 py-3">
+                    <div class="col-6 col-lg-3 py-3">
                         <div class="card">
                             <div class="media-info__cart">
                                 <img src="../img/anton-ljungberg-1123711-unsplash.jpg" alt="">

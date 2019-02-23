@@ -63,8 +63,11 @@ main .btn-more-info:hover{
 main .main__info h2{
     padding: 20px;
 }
-.main__info:not(:first-child){
+.main__info:not(:first-of-type){
     display: none;
+}
+time{
+    color: #6c757d;
 }
 main .list-item{
     width: 100%;

@@ -158,7 +158,7 @@
     padding: 12px;
     background: linear-gradient(to right,#02558D,#0086C0);
     color: white;
-    transition: background-color .5s;
+    transition: background-color .3s;
 }
 .about__cart-name::after{
     content: '';
@@ -169,7 +169,7 @@
     top: 15px;
     left: -10px;
     transform: rotate(45deg);
-    transition: left .5s;
+    transition: left .3s cubic-bezier(.17,.67,.83,.67);
 }
 .about__cart:hover .about__cart-name{
     background: #ffffff;

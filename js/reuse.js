@@ -50,3 +50,9 @@ $(".btn-forget-pass").click(function (e) {
     $("#forget-pass").fadeIn();
     $('.account').not('#forget-pass').fadeOut();
 });
+if (window.innerWidth<768){
+    $(".nav-item>a").click(function (e) {
+        e.preventDefault();
+       $(this).parent().children("ul.nav").slideToggle();
+    })
+}

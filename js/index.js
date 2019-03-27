@@ -13,7 +13,7 @@ $('.banner__info-new__list').slick({
     speed: 300
 });
 
-for (let i =1 ;i<=4;i++){
+    for (let i =1 ;i<=4;i++){
     let tabToggle =$(`#tab-${i}-toggle`);
     tabToggle.click(function () {
         tabToggle.addClass('active');

@@ -126,3 +126,36 @@ main .item__info b{
         flex-direction: column;
     }
 }
+.right__tags li {
+    margin: 2px;
+    padding: 3px 10px;
+    border: 1px solid #4e555b;
+    color: #4e555b;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s linear;
+}
+.right__tags li:hover{
+    background: #02558D;
+    color: #ffffff;
+}
+.right__category ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+.right__category li{
+    list-style: initial;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: relative;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+.right__category li:hover{
+    transform: translateX(20px);
+    color: #02558D;
+}

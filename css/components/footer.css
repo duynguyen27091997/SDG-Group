@@ -12,6 +12,7 @@ footer .footer__list li:hover{
 footer .footer__list li:first-child{
     font-family: bold-font,sans-serif;
     padding: 10px 0;
+    font-size: 18px;
 
 }
 footer .footer__btn-buy{

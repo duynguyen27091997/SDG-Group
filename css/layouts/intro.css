@@ -159,3 +159,50 @@ main .item__info b{
     transform: translateX(20px);
     color: #02558D;
 }
+.new{
+    display: flex;
+    position: relative;
+    padding: 0 7px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.new img{
+    width: 150px;
+    height: 100px   ;
+    object-fit: cover;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+
+}
+.new__info{
+    color: #ffffff;
+    overflow: hidden;
+}
+.new__info h6 {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-transform: none;
+
+}
+.detail__more{
+    padding: 15px;
+}
+.detail__more .new:last-child h6{
+    text-align: right;
+}
+.detail__more .new:last-child {
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .detail__more .new{
+        flex-direction: column;
+    }
+    .detail__more .new img{
+        width: 100%;
+        height: 150px;
+    }
+}

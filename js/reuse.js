@@ -56,3 +56,11 @@ if (window.innerWidth<768){
        $(this).parent().children("ul.nav").slideToggle();
     })
 }
+$(window).resize(function () {
+    if (window.innerWidth<768){
+        $(".nav-item>a").click(function (e) {
+            e.preventDefault();
+            $(this).parent().children("ul.nav").slideToggle();
+        })
+    }
+});

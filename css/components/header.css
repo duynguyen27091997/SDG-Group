@@ -213,11 +213,16 @@ header{
     background-color: #fff;
     top:70%;
     visibility: hidden;
-    left: -50%;
+    left: 0;
     opacity: .7;
     display: none;
     box-shadow: 1px 1px 4px 1px #6c757d;
 }
+.header__list-right .nav.header__menu>li>ul{
+    right: 0;
+    left: initial;
+}
+
 .header__menu .nav{
     font-size: 15px;
 }
@@ -280,6 +285,7 @@ header{
 .nav.header__menu>li>ul>li ul li {
     color:#6c757d;
     font-size: 14px;
+    padding: 5px;
 }
 .nav.header__menu>li>ul>li ul li:hover {
     color:  #02558D;
